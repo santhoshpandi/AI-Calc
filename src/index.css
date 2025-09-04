@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+button{
+  @apply cursor-pointer px-2 py-1 rounded-md duration-150 transition-all
+}
+
+input{
+  @apply px-2 py-1 rounded-md
+}
+
+.btn{
+  @apply p-2 bg-white/25 font-semibold hover:bg-white/20 duration-150
+}
+
